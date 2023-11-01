@@ -2,7 +2,7 @@
 
 <h4>About this Project...✨</h4>
 <p>Generally,I was Create this project for Practicing or Revising my JDBC,Servlet,Jsp and Java Concepts...🔥</p>
-<p>Basically,In this project I was used Jsp,Servlet,Jdbc,java,Html,css,js and Scss</p><br>
+<p>Basically,In this project I was used Jsp,Servlet,Jdbc,java,Html,css,js,scss and For Backend I was used MySql</p><br>
 <h4>How to Run The Project</h4>
 <h6>Step 1:</h6><p>Install the Eclipse and JDK</p>
 <h6>Step 2:</h6><p>Download the Zip and open it in Eclipse</p>
