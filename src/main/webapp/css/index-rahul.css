@@ -1,0 +1,362 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: cornflowerblue;
+            height: 92vh;
+        }
+
+
+        #card {
+            height: 80vh;
+            width: 60vh;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-left: 14px;
+            margin-right: 14px;
+        }
+
+        .heading {
+            font-size: 3vh;
+        }
+
+        .heading1 {
+            font-size: 2.5vh;
+        }
+
+        .user_detials {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-top: 3vh;
+
+        }
+
+        .dynamic {
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2vh;
+        }
+
+        .btn {
+            height: 20vh;
+            margin-top: 2vh;
+        }
+
+        .btn button {
+            padding: 7px 20px;
+            margin: 1.5vh;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn button:hover {
+            background-color: #7fff00;
+            color: #000;
+        }
+
+        .input {
+            width: 90%;
+            height: 25%;
+            text-align: center;
+            font-size: 15px;
+            border-radius: 10px;
+            font-weight: 900;
+            color: #0000ff;
+            border: 2px solid gray;
+        }
+
+        .dy_btn {
+            padding: 7px 20px;
+            margin: 2vh;
+            background-color: rgb(67, 29, 202);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        label {
+            font-size: 95%;
+            font-weight: 700;
+            color: gray;
+        }
+
+        #dep {
+            background-color: green;
+            color: #fff;
+        }
+
+        #nav {
+            height: 8vh;
+            background-color: rgb(96, 88, 173);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+
+        #card {
+            height: 80vh;
+            width: 60vh;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-left: 14px;
+            margin-right: 14px;
+        }
+
+        .user_detials1 {
+            height: 30%;
+        }
+
+        .user_detials1 img {
+            height: 18vh;
+            width: 19vh;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+
+        }
+
+        .user_detials1 p {
+            display: none;
+        }
+
+        .user_detials1 span {
+            display: none;
+        }
+
+        .heading {
+            font-size: 3vh;
+            margin-top: -2vh;
+        }
+
+        .bottom {
+            height: 70%;
+            overflow: auto;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+
+
+        .mini_card {
+            height: 15%;
+            margin-top: 2vh;
+            margin-left: 1%;
+            margin-right: 1%;
+            border-radius: 10px;
+            /* border: 1px solid #000; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            background-color: rgb(216, 199, 199);
+            padding: 8px;
+        }
+
+        .name {
+            height: 100%;
+            margin: 2px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        .type {
+            height: 100%;
+            margin: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .amount {
+            height: 100%;
+            margin: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 0.75em;
+            font-weight: 700;
+            color: blue;
+        }
+
+        .balance {
+            font-size: 0.7em;
+            font-weight: 700;
+            color: rgb(105, 74, 101);
+        }
+
+        .pay_type {
+            font-size: 0.7em;
+            font-weight: 700;
+            color: rgb(55, 94, 54);
+        }
+
+        .logo {
+
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .logo img {
+            margin: 3%;
+            height: 10vh;
+
+        }
+
+        .right_nav {
+
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: row;
+            margin-right: 4px;
+
+        }
+
+
+        .logout {
+            margin: 5px;
+            padding: 8px 15px;
+            color: #fff;
+            font-size: 1.8vh;
+            font-weight: 500;
+            background-color: red;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .trans {
+            background-color: rgb(21, 94, 21);
+            margin-right: 10px;
+            padding: 8px 15px;
+            color: #fff;
+            font-size: 1.8vh;
+            font-weight: 500;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        @media (max-width:768px) {
+            .logout {
+                margin: 3px;
+                padding: 8px 10px;
+                color: #fff;
+                font-size: 1.2vh;
+                font-weight: 500;
+                background-color: red;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .trans {
+                background-color: rgb(21, 94, 21);
+                margin-right: 10px;
+                padding: 8px 10px;
+                color: #fff;
+                font-size: 1.2vh;
+                font-weight: 500;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .logo img {
+                margin: 3%;
+                height: 8vh;
+
+            }
+
+            .user_detials1 img {
+                height: 15vh;
+                width: 16vh;
+                object-fit: cover;
+                object-position: top;
+                border-radius: 50%;
+
+            }
+
+            .user_detials1 p {
+                display: inline;
+                font-size: 1em;
+                font-weight: 900;
+                color: rgb(146, 137, 126);
+            }
+
+            .user_detials1 span {
+                margin-top: 20vh;
+                font-family: 'Times New Roman', Times, serif;
+                display: inline;
+                color: green;
+            }
+        }
+
+        .upi {
+            font-size: 3vh;
+            font-weight: 700;
+            color: rgb(130, 216, 113);
+            margin: 3%;
+        }
+
+        .upiid {
+            font-size: 2.5vh;
+            font-weight: 600;
+            color: #fff;
+            margin-right: 3%;
+        }
+
+        @media (max-width:920px) {
+            .right_nav h2 {
+                display: none;
+            }
+
+            .right_nav h3 {
+                display: none;
+            }
+
+        }
+        
+      
